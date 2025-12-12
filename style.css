@@ -2,7 +2,7 @@ body{
     
 
    
-    background-color: white;
+    background-color: black;
 }
 .hearts{
     display: flex;
@@ -167,5 +167,6 @@ body{
 }
 .click h1{
     font-size: 30px;
+
 
 }
