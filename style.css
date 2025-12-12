@@ -1,0 +1,176 @@
+body{
+    
+ background-color: black;
+   
+    overflow: hidden;
+}
+.hearts{
+    display: flex;
+
+    justify-content: space-evenly;
+    gap: 15px;
+   
+}
+
+   h1{
+    position: absolute;
+    color: red;
+   }
+  
+
+@keyframes i {
+    0% {margin-top: -10%;}
+    100%{margin-top: 200%;}
+}
+
+.heart1{
+    animation:i infinite 5s ease none ;
+}
+.heart2 i {
+    font-size: 1rem;
+    color: red;
+    text-shadow: 0px 0px 20px pink;
+}
+.heart2{
+    animation: i infinite 8s ease 2s;
+}
+.heart3 i {
+    font-size: 1rem;
+    color: red;
+    text-shadow: 0px 0px 20px pink;
+}
+@keyframes falling3 {
+    0% {margin-top: 0%;}
+    100%{margin-top: 100%;}
+}
+.heart3{
+    animation:i infinite 6s ease none 1s;
+}
+.heart4 i {
+    font-size: 1rem;
+    color: red;
+    text-shadow: 0px 0px 20px pink;
+}
+.heart4{
+    animation:i infinite 9s ease none 3s;
+}
+
+.heart5 i {
+    font-size: 1rem;
+    color: red;
+    text-shadow: 0px 0px 20px pink;
+}
+.heart5{
+    animation:i infinite 12s ease none 0.5s;
+}
+.heart6 i {
+    font-size: 1rem;
+    color: red;
+    text-shadow: 0px 0px 20px pink;
+}
+.heart6{
+    animation:i infinite 14s ease none ;
+}
+.heart7 i {
+    font-size: 1rem;
+    color: red;
+    text-shadow: 0px 0px 20px pink;
+}
+.heart7{
+    animation:i infinite 10s ease none 0.5s;
+}
+.heart8 i {
+    font-size: 1rem;
+    color: red;
+    text-shadow: 0px 0px 20px pink;
+}
+.heart8{
+    animation:i infinite 12s ease none 1s;
+}
+.heart9 i {
+    font-size: 1rem;
+    color: red;
+    text-shadow: 0px 0px 20px pink;
+}
+.heart9{
+    animation:i infinite 14s ease none 1.5s;
+}
+.heart10 i {
+    font-size: 1rem;
+    color: red;
+    text-shadow: 0px 0px 20px pink;
+}
+.heart10{
+    animation:i infinite 10s ease none 2s;
+}
+.heart11 i {
+    font-size: 1rem;
+    color: red;
+    text-shadow: 0px 0px 20px pink;
+}
+.heart11{
+    animation:i infinite 12s ease none 0.4s;
+}
+.heart12 i {
+    font-size: 1rem;
+    color: red;
+    text-shadow: 0px 0px 20px pink;
+}
+.heart12{
+    animation:i infinite 14s ease none 0.8s;
+}
+.heart13 i {
+    font-size: 1rem;
+    color: red;
+    text-shadow: 0px 0px 20px pink;
+}
+.heart13{
+    animation:i infinite 10s ease none 0.2s;
+}
+.heart14 i {
+    font-size: 1rem;
+    color: red;
+    text-shadow: 0px 0px 20px pink;
+}
+.heart14{
+    animation:i infinite 12s ease none ;
+}
+.heart15 i {
+    font-size: 1rem;
+    color: red;
+    text-shadow: 0px 0px 20px pink;
+}
+.heart15{
+    animation:i infinite 14s ease none 0.5s;
+}
+/* second*/
+
+.click{
+    
+    position: absolute;
+    background-color: white;
+    border-radius: 8px;
+    width: 400px;
+    height: 80px;
+    color: black;
+    text-align: center;
+    margin-top: 30%;
+    overflow: hidden;
+}
+.click a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: black;
+   font-style: italic;
+   font-weight: bolder;
+   font-size: 1.5rem;
+}
+.click i {
+    color: red;
+}
+.click h1{
+    font-size: 30px;
+    position: relative;
+
+}
