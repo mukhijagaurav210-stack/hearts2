@@ -17,7 +17,6 @@ body{
     color: purple;
    }
   p{
-    box-shadow: red 0px 2px 29px 0px;
    }
 
 @keyframes i {
@@ -177,3 +176,4 @@ body{
 
 
 }
+
